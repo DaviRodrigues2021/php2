@@ -7,6 +7,29 @@
     <title>Exercicio3</title>
 </head>
 <body>
-    
+
+<?php
+//Faça um Programa que leia três números e mostre o maior deles
+$valor1 = 150;
+$valor2 = 200;
+$valor3 = 30;
+if($valor1 > $valor2 && $valor1 > $valor3){
+    echo "valor maior é o primeiro";
+    }else if(($valor2 > $valor1 && $valor2 > $valor3)) {
+        echo "valor maior é o segundo";
+        }else{
+            echo "valor maior é o terceiro";
+
+}
+
+
+
+
+
+
+
+
+?>
+
 </body>
 </html>
